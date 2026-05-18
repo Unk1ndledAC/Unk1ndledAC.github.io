@@ -1,0 +1,287 @@
+# ============================================================
+# THEME REDEFINE - 用户个性化配置
+# Unk1ndled's Personal Blog
+# ============================================================
+
+# 基础信息
+info:
+  title: Unk1ndled's Blog
+  subtitle: A developer who loves code and games
+  author: Unk1ndled
+  url: https://unk1ndledac.github.io
+
+# 图片配置（占位图片，将在后续替换）
+defaults:
+  favicon: /images/favicon.svg
+  logo:
+  avatar: /images/avatar.png
+
+# 颜色配置
+colors:
+  primary: "#2563eb"
+  secondary:
+  default_mode: dark
+
+# 网站全局设置
+global:
+  content_max_width: 1000px
+  sidebar_width: 210px
+  hover:
+    shadow: true
+    scale: false
+  scroll_progress:
+    bar: true
+    percentage: true
+  website_counter:
+    url: https://cn.vercount.one/js
+    enable: true
+    site_pv: true
+    site_uv: true
+    post_pv: true
+  single_page: true
+  preloader:
+    enable: false
+  side_tools:
+    gear_rotation: true
+    auto_expand: false
+  open_graph:
+    enable: true
+    image: /images/og-image.png
+    description: Personal blog of Unk1ndled - Developer & Steam enthusiast
+  google_analytics:
+    enable: false
+    id:
+
+# 首页 Banner
+home_banner:
+  enable: true
+  style: fixed
+  image:
+    light: /images/banner-light.webp
+    dark: /images/banner-dark.webp
+  title: Welcome to My Blog
+  subtitle:
+    text:
+      - 'Hello, I am Unk1ndled!'
+      #- 'Developer | Steam Enthusiast | Gamer'
+      #- 'Studying at Yunnan University'
+      #- 'Located in Kunming, Yunnan, China'
+      #- 'Feel free to explore my blog!'
+    hitokoto:
+      enable: false
+      show_author: false
+      api: https://v1.hitokoto.cn
+    typing_speed: 150
+    backing_speed: 80
+    starting_delay: 500
+    backing_delay: 1500
+    loop: true
+    smart_backspace: true
+  text_color:
+    light: "#fff"
+    dark: "#e2e8f0"
+  text_style:
+    title_size: 2.8rem
+    subtitle_size: 1.5rem
+    line_height: 1.2
+  social_links:
+    enable: true
+    style: default
+    links:
+      - icon: github
+        url: https://github.com/Unk1ndledAC
+      - icon: email
+        url: mailto:unk1ndled@outlook.com
+      - icon: steam
+        url: https://store.steampowered.com/developer/SilexWorkshop/
+      - icon: bilibili
+        url: https://space.bilibili.com/2049457736
+
+# 导航栏
+navbar:
+  auto_hide: false
+  color:
+    left: "#2563eb"
+    right: "#1d4ed8"
+    transparency: 35
+  width:
+    home: 1200px
+    pages: 1000px
+  links:
+    Home:
+      path: /
+      icon: fa-regular fa-house
+    Archives:
+      path: /archives
+      icon: fa-regular fa-archive
+    Categories:
+      path: /categories
+      icon: fa-regular fa-folder
+    Tags:
+      path: /tags
+      icon: fa-regular fa-tags
+    About:
+      path: /about
+      icon: fa-regular fa-user
+    Links:
+      icon: fa-regular fa-link
+      submenus:
+        GitHub: https://github.com/Unk1ndledAC
+        Steam: https://store.steampowered.com/developer/SilexWorkshop/
+        Bilibili: https://space.bilibili.com/2049457736
+  search:
+    enable: false
+    preload: true
+
+# 侧边栏
+home:
+  sidebar:
+    enable: true
+    position: left
+    first_item: menu
+    announcement: "Welcome to my blog! Feel free to look around."
+    show_on_mobile: true
+    links:
+      Archives:
+        path: /archives
+        icon: fa-regular fa-archive
+      Tags:
+        path: /tags
+        icon: fa-regular fa-tags
+      Categories:
+        path: /categories
+        icon: fa-regular fa-folder
+      About:
+        path: /about
+        icon: fa-regular fa-user
+  article_date_format: "YYYY-MM-DD"
+  excerpt_length: 200
+  categories:
+    enable: true
+    limit: 5
+  tags:
+    enable: true
+    limit: 5
+
+# 文章设置
+articles:
+  style:
+    font_size: 16px
+    line_height: 1.8
+    image_border_radius: 14px
+    image_alignment: center
+    image_caption: false
+    link_icon: true
+    delete_mask: false
+    title_alignment: left
+    headings_top_spacing:
+      h1: 3.2rem
+      h2: 2.4rem
+      h3: 1.9rem
+      h4: 1.6rem
+      h5: 1.4rem
+      h6: 1.3rem
+  word_count:
+    enable: true
+    count: true
+    min2read: true
+  author_label:
+    enable: true
+    auto: false
+    list: []
+  code_block:
+    copy: true
+    style: mac
+    highlight_theme:
+      light: github
+      dark: vs2015
+    font:
+      enable: false
+      family:
+      url:
+  toc:
+    enable: true
+    max_depth: 3
+    number: false
+    expand: true
+    init_open: true
+  copyright:
+    enable: true
+    default: cc_by_nc_sa
+  lazyload: true
+  pangu_js: false
+  recommendation:
+    enable: false
+    title: 推荐阅读
+    limit: 3
+    mobile_limit: 2
+    placeholder: /images/banner-dark.webp
+    skip_dirs: []
+
+# 评论区（暂时关闭，待配置 Waline）
+comment:
+  enable: false
+  system: waline
+  config:
+    waline:
+      serverUrl:
+      lang: zh-CN
+      emoji: []
+      recaptchaV3Key:
+      turnstileKey:
+      reaction: false
+
+# 页脚
+footer:
+  runtime: true
+  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+  start: 2026/05/18 00:00:00
+  statistics: true
+  customize: ""
+  icp:
+    enable: false
+    number:
+    url:
+
+# 注入
+inject:
+  enable: false
+  head:
+    -
+    -
+  footer:
+    -
+    -
+
+# 插件
+plugins:
+  feed:
+    enable: false
+  aplayer:
+    enable: false
+    type: fixed
+    audios: []
+  mermaid:
+    enable: false
+    version: "11.4.1"
+    theme:
+      light: "light"
+      dark: "default"
+
+# 页面模板
+page_templates:
+  friends_column: 2
+  tags_style: blur
+  masonry:
+    batch_size: 12
+    initial_batch_size: 24
+
+# CDN
+cdn:
+  enable: false
+  provider: npmmirror
+  custom_url:
+
+# 开发者模式
+developer:
+  enable: false
