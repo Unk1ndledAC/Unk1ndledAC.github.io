@@ -514,5 +514,6 @@ developer:
 
 deploy:
   type: git
-  repo: https://github.com/Unk1ndledAC/unk1ndled.github.io.git
+  repo: https://github.com/Unk1ndledAC/Unk1ndledAC.github.io.git
   branch: main
+  message: "Site updated: {{now('YYYY-MM-DD HH:mm:ss')}}"
