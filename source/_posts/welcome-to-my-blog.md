@@ -15,7 +15,7 @@ Hello everyone! Welcome to my personal blog.
 
 ## About Me
 
-I'm **Unk1ndled**, a developer passionate about code, games, and technology. I'm currently studying at **Yunnan University** in **Kunming, Yunnan, China**.
+I'm a developer passionate about code, games, and technology. I'm currently studying at **Yunnan University** in **Kunming, Yunnan, China**.
 
 ## What You'll Find Here
 

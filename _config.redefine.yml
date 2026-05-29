@@ -6,7 +6,7 @@
 # 基础信息
 info:
   title: Unk1ndled's Blog
-  subtitle: A developer who loves code and games
+  subtitle: 曲冠衡 - Hoshino Utaka
   author: Unk1ndled
   url: https://unk1ndledac.github.io
 
@@ -63,6 +63,9 @@ home_banner:
   subtitle:
     text:
       - 'Hello, I am Unk1ndled!'
+      - 'Chinese name: 曲冠衡 (Qu Guanheng)'
+      - 'Or you can call me Hoshino Utaka.'
+
       #- 'Developer | Steam Enthusiast | Gamer'
       #- 'Studying at Yunnan University'
       #- 'Located in Kunming, Yunnan, China'
