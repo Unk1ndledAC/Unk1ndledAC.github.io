@@ -9,6 +9,7 @@ tags:
   - tutorial
   - static-site
   - github-pages
+cover: /images/placeholder-cover.png
 ---
 
 Welcome to the wonderful world of Jekyll! In this tutorial, we'll walk through the basics of creating a static website with Jekyll.

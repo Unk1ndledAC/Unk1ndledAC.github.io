@@ -42,5 +42,3 @@ Here's what I work with:
 ---
 
 Feel free to look around and don't hesitate to reach out if you have any questions!
-
-*This blog is built with [Hexo](https://hexo.io/) and the [Redefine](https://github.com/EvanNotFound/hexo-theme-redefine) theme.*
