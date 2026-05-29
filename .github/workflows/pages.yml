@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main  # 每次 push 到 main 分支时触发构建
+      - source  # 每次 push 到 source 分支时触发构建
   workflow_dispatch:  # 允许手动触发
 
 permissions:
