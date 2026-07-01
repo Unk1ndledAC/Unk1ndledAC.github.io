@@ -5,8 +5,8 @@
 
 # 基础信息
 info:
-  title: Unk1ndled's Blog
-  subtitle: 曲冠衡 - Hoshino Utaka
+  title: Unk1ndled's Website
+  subtitle: Hello
   author: Unk1ndled
   url: https://unk1ndledac.github.io
 
@@ -47,7 +47,6 @@ global:
   open_graph:
     enable: true
     image: /images/og-image.png
-    description: Personal blog of Unk1ndled - Developer & Steam enthusiast
   google_analytics:
     enable: false
     id:
@@ -59,12 +58,11 @@ home_banner:
   image:
     light: /images/banner-light.webp
     dark: /images/banner-dark.webp
-  title: Welcome to My Blog
+  title: Welcome
   subtitle:
     text:
       - 'Hello, I am Unk1ndled!'
-      - 'Chinese name: 曲冠衡 (Qu Guanheng)'
-      - 'Or you can call me Hoshino Utaka.'
+      #- 'Or you can call me Hoshino Utaka.'
 
       #- 'Developer | Steam Enthusiast | Gamer'
       #- 'Studying at Yunnan University'
@@ -126,6 +124,9 @@ navbar:
     About:
       path: /about
       icon: fa-regular fa-user
+    GitCSTV:
+      path: /gitcstv
+      icon: fa-regular fa-gamepad
     Links:
       icon: fa-regular fa-link
       submenus:
@@ -142,7 +143,7 @@ home:
     enable: true
     position: left
     first_item: menu
-    announcement: "Welcome to my blog! Feel free to look around."
+    announcement: "Welcome!"
     show_on_mobile: true
     links:
       Archives:
