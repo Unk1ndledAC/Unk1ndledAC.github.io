@@ -215,8 +215,11 @@ function score(data){
 async function renderCard(data,stats){
     const W=800,H=900;
     const cv=document.getElementById('cv');
-    cv.width=W;cv.height=H;
+    const dpr=window.devicePixelRatio||1;
+    cv.width=W*dpr;cv.height=H*dpr;
+    cv.style.width=W+'px';cv.style.height=H+'px';
     const ctx=cv.getContext('2d');
+    ctx.scale(dpr,dpr);
 
     const bgc='#111111', gold='#d4af37', gold2='#aa8c28', w='#f5f5f5', g='#a5a5a5', d='#737373', bb='#323232', bf='#a0a0a0', gn='#4caf50';
 
